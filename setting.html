@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style/setting.css" type="text/css" />
+ </head>
+
+ <body>
+    <center>
+        <h1>НАСТРОЙКИ</h1>
+    </center>
+    <form action="setting.php" method="post">
+        <p><input type="text" name="token"> Токен DonationAlerts <a href="https://www.donationalerts.com/dashboard/general">тык</a></p>
+        <p><input type="number" name="time"> Длительность доната(мс)</p>
+        <p><input type="text" name="soundannouncement" value="https://dapanel.herokuapp.com/index.html"> Анонсер доната (ссылка)</p>
+        <p><input type="text" name="animstart" value="text-focus-in"> Анимация показа (не менять)</p>
+        <p><input type="text" name="animbreak" value="text-focus-out"> Анимация прекращения оповещения (не менять)</p>
+        <p><input type="number" name="timeanim" value="2000"> Длительность animbreak (не менять)</p>
+        <input type="submit" value="Создать кфг">
+    </form>
+    <p>
+        <font color="gray">*Бот в активной разработке!.</font>	
+        
+    </p>
+ </body>
+</html>
